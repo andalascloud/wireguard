@@ -6,6 +6,10 @@ $ sudo nano /etc/wireguard/wg0.conf
 
 ------------------------------------------------------------
 
+wireguard conf
+
+------------------------------------------------------------
+
 [Interface]
 
 PrivateKey = UO1GE3vFDGa+yQhcTqejSQL8H+M2RlmB2csrsVaLZ2I=

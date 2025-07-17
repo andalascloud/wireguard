@@ -40,18 +40,6 @@ $ sudo systemctl enable wg-quick@wg0.service
 
 $ sudo systemctl status wg-quick@wg0.service
 
-● wg-quick@wg0.service - WireGuard via wg-quick(8) for wg0
-     Loaded: loaded (/usr/lib/systemd/system/wg-quick@.service; disabled; preset: enabled)
-     Active: active (exited) since Wed 2024-06-12 04:47:53 UTC; 38s ago
-       Docs: man:wg-quick(8)
-             man:wg(8)
-             https://www.wireguard.com/
-             https://www.wireguard.com/quickstart/
-             https://git.zx2c4.com/wireguard-tools/about/src/man/wg-quick.8
-             https://git.zx2c4.com/wireguard-tools/about/src/man/wg.8
-    Process: 2384 ExecStart=/usr/bin/wg-quick up wg0 (code=exited, status=0/SUCCESS)
-   Main PID: 2384 (code=exited, status=0/SUCCESS)
-        CPU: 125ms
 Lihat status peer wireguard wg0
 
 $ sudo wg

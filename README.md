@@ -37,6 +37,7 @@ Jalankan wireguard peer wg0 dan aktifkan service dengan cara
 $ sudo systemctl start wg-quick@wg0.service
 $ sudo systemctl enable wg-quick@wg0.service
 $ sudo systemctl status wg-quick@wg0.service
+
 ● wg-quick@wg0.service - WireGuard via wg-quick(8) for wg0
      Loaded: loaded (/usr/lib/systemd/system/wg-quick@.service; disabled; preset: enabled)
      Active: active (exited) since Wed 2024-06-12 04:47:53 UTC; 38s ago

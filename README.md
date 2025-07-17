@@ -1,27 +1,3 @@
-Welcome to Ubuntu 25.04 (GNU/Linux 6.14.0-15-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/pro
-
- System information as of Thu May 22 01:35:37 PM UTC 2025
-
-  System load:             0.03
-  Usage of /:              50.4% of 26.17GB
-  Memory usage:            10%
-  Swap usage:              0%
-  Temperature:             57.0 C
-  Processes:               176
-  Users logged in:         0
-  IPv4 address for enp1s0: 192.168.1.3
-  IPv6 address for enp1s0: 2001:448a:1105:19dd:7ed3:aff:fe11:56e0
-
-
-0 updates can be applied immediately.
-
-
-Last login: Thu May 22 13:27:31 2025 from 1x.x.x.1
-
 Install Wireguard
 
 $ sudo apt install wireguard
